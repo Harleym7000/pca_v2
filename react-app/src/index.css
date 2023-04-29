@@ -1,0 +1,155 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap");
+
+/* Navbar */
+.navbarStyles {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)
+}
+
+.navbar-links {
+    color: #6EC5D9;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-links:hover {
+    color: #002080;
+    transition: .3s ease-in-out;
+}
+
+/* Home Page */
+.main-image {
+    height: 80vh;
+    width: 100%;
+    backdrop-filter: blur(15px);
+}
+
+.homeTextOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: #000 4px 4px;
+    text-align: center;
+}
+
+.tagline {
+    color: #6EC5D9;
+    font-weight: bold;
+}
+
+.homeButton {
+    background-color: #6EC5D9 !important;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin-right: 5%;
+}
+
+.joinTodayButton {
+    background-color: #02146b;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.joinTodayButton:hover {
+    background-color: #051b9d;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.homeButton:hover {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+    color: #fff;
+}
+
+.events-header {
+    font-family: 'Roboto';
+}
+
+/*.causes {*/
+/*    height: 150px;*/
+/*    background-color: #6EC5D9;*/
+/*    padding: 3%;*/
+/*}*/
+
+/*.causes:hover {*/
+/*    background-color: #43b9d1;*/
+/*    transition: .3s ease-in-out;*/
+/*}*/
+
+/*.causesLighter {*/
+/*    height: 150px;*/
+/*    background-color: #98def1;*/
+/*    padding: 3%;*/
+/*}*/
+
+/*.causesLighter:hover {*/
+/*    background-color: #43b9d1;*/
+/*    transition: .3s ease-in-out;*/
+/*}*/
+
+.causesHeader {
+    font-size: 16px;
+}
+
+.causesText {
+    font-size: 12px;
+}
+
+.red-circle {
+    border: 2px solid red;
+    border-radius: 60px;
+    padding: 12px;
+    box-shadow: 0px 10px 30px 0 rgba(49, 52, 57, 0.3), 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.yellow-circle {
+    border: 2px solid #ff9800;
+    border-radius: 60px;
+    padding: 12px;
+    box-shadow: 0px 10px 30px 0 rgba(49, 52, 57, 0.3), 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.purple-circle {
+    border: 2px solid #8c239f;
+    border-radius: 60px;
+    padding: 12px;
+    box-shadow: 0px 10px 30px 0 rgba(49, 52, 57, 0.3), 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.cause-text {
+    width: 70%;
+    margin: auto;
+}
+
+.missionContainer {
+    background-color: #6EC5D9;
+}
+
+.missionHeader {
+    color: #fff;
+}
+
+.missionText {
+    width: 70%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.getInvolvedButton {
+    background-color: #02146b;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.getInvolvedButton:hover {
+
+}
